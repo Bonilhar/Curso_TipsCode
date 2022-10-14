@@ -1,0 +1,243 @@
+<!--Módulo criado para praticar as funcionalidades ensinadas no curso TipsCode
+OBS: alguns termos, como os nomes de classes foram 'aportuguesados' para fins de aprendizado;
+14/10/2022-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Rodrigo Bonilha</title>
+    <!--Ícone do site-->
+    <link rel="shortcut icon" href="./img/Icone_site_preto.png" type="image/x-icon">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Caveat+Brush&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!--CSS bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--Arquivo CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Icones bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- JavaScript bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--navbar-->    
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <img class="icon-navbar" src="./img/Icone_site_branco.png" alt="Logo do Site"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#Sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Formacao">Formação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Experiencias">Experiências</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Habilidades">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contato">Contato</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <!--fim navbar-->
+
+    <!--Cabeçalho-->
+    <header>       
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col col-lg-5 col-sm-12">
+                    <img class="FotoPerfil" src="./img/foto_rodrigo1-cortado2.png" alt="Foto de Rodrigo">
+                </div>
+                <div class="col col-lg-7 col-sm-12">
+                    <div class="DescPerfil">
+                        <h1 class="NomePerfil">Rodrigo Bonilha</h1>
+                        <h2>Estudante de Desenvolvimento Full Stack</h2>  
+                        <p> Este é apenas um módulo criado para testar as funcionalidades aprendidas no curso 
+                            <strong> <a href="https://tipscode.com.br/" rel="external">TipsCode</a> </strong></p>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Fim cabeçalho-->
+
+    
+    <!--Corpo principal-->
+    <main>
+        
+        <section id="Sobre" class="SessaoCorpo">
+            <div class="sobremim">
+                <h2>Sobre mim</h2>
+                <p>Nascido em 1993, sou originário de Curitiba-PR, desde criança sempre tive forte 
+                    apelo com a informática. Com apenas 5 anos já dominava certos aspectos dos 
+                    computadores que alguns adultos da época sentiam dificuldades, isto, claro, 
+                    devido a um grande senso de curiosidade além de incentivos familiares. 
+                    Minha mãe, professora, pensava, assim como hoje, que o aprendizado devia 
+                    começar cedo e sendo assim, me incentivava através de jogos digitais e 
+                    enciclopédias em CD-ROM a aquisição de conhecimentos em diversas áreas. 
+                    Posso dizer que fui privelegiado, pois, tive oportunidade de conhecer a 
+                    amazônia, o louvre, os planetas e outras coisas através de uma tela de 
+                    computador numa época em que ainda não se falava de internet. Então, fui 
+                    crescendo sempre acompanhado da computação e suas mudanças. Ainda no ensino 
+                    médio fiz um curso de manutenção de Hardware, e pouco tempo depois entrei 
+                    pra faculdade de Informática, curso no qual não me formei mas ganhei, 
+                    além de vários amigos, ainda mais conhecimento, conhecimento do qual 
+                    utilizei em minha gradução em Ciências Contabéis, área na qual, 
+                    em minha opinião, ainda esta atrelada a excessos de retrabalhos e 
+                    procedimentos mal otimizados. Minha busca é tentar mesclar e desenvolver 
+                    mais a relação informática/contabilidade tornando as duas cada vez mais 
+                    próximas.</p>
+            </div>
+        </section>
+       
+        <section id="Formacao" class="SessaoCorpo">
+            <div class="d-flex align-items-center">
+                <img class="icone-texto" src="./img/1_graduado.png" alt="Icone Graduação" />
+                <h2>Formação Acadêmica</h2>
+            </div>
+            <div class="formacao-academica fs-5">
+                <div class="row align-items-center">
+                    <div class="col col col-lg-6 col-sm-12 py-4">
+                        <div class="card">
+                            <div class="card-header fw-bold">
+                                 Ciências Contábeis
+                            </div>
+                            <div class="card-body">
+                              <h6 class="card-subtitle mb-2 text-muted">2016 a 2021</h6>
+                              <p class="card-text">Universidade Estadual de Maringá - UEM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col col-lg-6 col-sm-12 py-2">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong>Informática</strong>
+                            </div>
+                            <div class="card-body">
+                              <h6 class="card-subtitle mb-2 text-muted">2011 a 2015</h6>
+                              <p class="card-text">Universidade Estadual de Maringá - UEM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col col-lg-6 col-sm-12 py-2">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong>Ensino Médio</strong>
+                            </div>
+                            <div class="card-body">
+                              <h6 class="card-subtitle mb-2 text-muted">2007 a 2009</h6>
+                              <p class="card-text">Colégio Anglo-Drummond - Maringá/PR</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+        </section>
+        
+
+        <section id="Experiencias" class="SessaoCorpo">
+            <div class="experiencias">
+                <div class="d-flex align-items-center">
+                    <img class="icone-texto" src="./img/1_experiencia.png" alt="Icone Experiências" />
+                    <h2>Experiências Profissionais</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="Habilidades" class="SessaoCorpo">
+            <div class="d-flex align-items-center">
+                <img class="icone-texto" src="./img/1_habilidade.png" alt="Icone Habilidades" />
+                <h2>Competências e Habilidades</h2>
+            </div>
+            <div class="row align-items-start py-4 fs-5">
+                <div class="col col-lg-4 col-sm-6 text-start justify-content-center">
+                    <p>Pacote Office</p>
+                    <p>VBA</p>
+                    <p>Manutenção de computadores</p>
+                    <p>Programação</p>
+                    <p>Banco de Dados</p>
+                    <p>Progress</p>
+                    <p>Inglês</p>
+                    <p>Metodologias Ágeis</p>
+                    <p>Desing</p>
+                </div>
+                <div  class="col col-lg-2 col-sm-6 text-start justify-content-center">
+                    <p>⭐⭐⭐⭐</p>
+                    <p>⭐⭐⭐⭐</p> 
+                    <p>⭐⭐⭐⭐</p> 
+                    <p>⭐⭐⭐⭐</p> 
+                    <p>⭐⭐⭐</p> 
+                    <p>⭐⭐⭐</p> 
+                    <p>⭐⭐⭐</p> 
+                    <p>⭐⭐</p> 
+                    <p>⭐</p> 
+                </div>
+                <div class="col col-lg-4 col-sm-6 text-start justify-content-center">
+                    <p>Organização</p>
+                    <p>Criatividade</p>
+                    <p>Comunicação</p>
+                    <p>Proatividade</p>
+                    <p>Gestão de Problemas</p>
+                    <p>Liderança</p>
+                    <p>Social</p>
+                </div>
+                <div class="col col-lg-2 col-sm-6 text-start justify-content-center">
+                    <p>⭐⭐⭐⭐⭐</p>
+                    <p>⭐⭐⭐⭐⭐</p> 
+                    <p>⭐⭐⭐⭐</p> 
+                    <p>⭐⭐⭐⭐</p> 
+                    <p>⭐⭐⭐⭐</p> 
+                    <p>⭐⭐⭐</p> 
+                    <p>⭐⭐⭐</p> 
+                </div>
+            </div>
+        </section>
+        <br>
+    </main>
+    <!--fim Corpo Principal-->
+
+    <!--Rodapé-->
+    <footer id="Contato">
+        <h2 class="fs-3 fw-bold">ENTRE EM CONTATO</h2>
+
+        <div class="row py-3 justify-content-center">
+            <div class="col-12 col-lg-4 text-center align-self-center">
+                <p> <strong>Cel:</strong> (44) 99829-7216</p>
+            </div>
+            <div class="col-12 col-lg-4 text-center align-self-center">
+                <p><strong>E-mail:</strong> r.bonilha@outlook.com</p>          
+            </div>
+            <div class="row pt-2 fs-2 justify-content-center">
+                <div class="col col-2">
+                    <a href="https://www.instagram.com/bonilha.r"><i class="bi bi-instagram"></i></a>    
+                </div>
+                <div class="col col-2">
+                    <a href="https://github.com/Bonilhar"><i class="bi bi-github"></i></a>    
+                </div>
+                <div class="col col-2">
+                    <a href="https://www.linkedin.com/in/bonilharodrigo/"><i class="bi bi-linkedin"></i></a>              
+                </div>
+            </div>
+        </div>
+
+        <p class="fw-bold">Copyright © 2022 | Rodrigo Bonilha | Todos os direitos reservados (BR)</p>
+    </footer>
+    <!--Fim rodapé-->
+
+</body>
+</html>

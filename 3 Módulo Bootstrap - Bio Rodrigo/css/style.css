@@ -1,0 +1,97 @@
+/*Fontes
+font-family: 'Arvo', serif;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
+
+/*============Mudanças Gerais============*/
+body{
+    font-family: 'Arvo', serif;
+    background-color: #F9F7F7;
+    text-align: center;
+    color: #112D4E;
+}
+
+nav, header {
+    padding: 2% 12%;
+}
+
+nav {
+    font-family: 'Arvo', serif;
+    font-size: 1.2rem;
+    background-color: #112D4E;
+}
+
+header{
+    background-color: #112D4E;
+    color: #fff;
+
+}
+
+footer{
+    background-color: #112D4E;
+    color: #fff;
+    padding: 2% 20%;
+}
+
+h2, h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.2rem;
+}
+p{
+    margin: 0;
+}
+/*============Navegação============*/
+.navbar{
+    padding: 1% 15%;
+}
+.icon-navbar{
+    width: 50px;
+}
+.nav-link{
+    color: #fff;
+    text-align: left;
+}
+
+/*============Cabeçalho============*/
+.FotoPerfil{
+    width: 250px;
+}
+
+.NomePerfil{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 5.5rem;
+}
+
+header a{
+    color: #F9F7F7;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #3F72AF;
+}
+/*============Sessões e Classes gerais============*/
+.SessaoCorpo{
+    padding: 2% 15%;
+}
+
+.icone-texto{
+    width: 75px;
+    padding-right: 25px;
+    justify-content: center;
+}
+
+
+/*============Sessão Sobre MIM============*/
+.sobremim p{ 
+    text-align: justify;
+}
+
+/*============Rodapé============*/
+.bi{
+    color: #fff;
+}
+
+
+/*============Para Mobile============*/
+
