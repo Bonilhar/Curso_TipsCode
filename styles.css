@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  background-color: #1E2022;
+  color: #F0F5F9;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+.container-fluid{
+  padding: 2% 12%;
+}
+.card{
+  width: 18rem;
+}
+
+#pricipal{
+  background-color: #C9D6DF;
+  color: #1E2022;
+}
