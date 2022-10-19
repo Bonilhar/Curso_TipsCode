@@ -9,16 +9,26 @@ h1{
 }
 
 img {
-  height: 350px;
+  height: 250px;
+}
+
+footer{
+  color: #fff;
+  padding: 2% 20%;
 }
 .container-fluid{
   padding: 2% 12%;
 }
 .card{
-  width: 18rem;
+  width: 20rem;
+}
+
+.bi{
+  color: #F0F5F9;
 }
 
 #pricipal{
   background-color: #C9D6DF;
   color: #1E2022;
 }
+
