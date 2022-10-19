@@ -8,6 +8,9 @@ h1{
   font-size: 3rem;
 }
 
+img {
+  height: 350px;
+}
 .container-fluid{
   padding: 2% 12%;
 }
